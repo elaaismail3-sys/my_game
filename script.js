@@ -71,7 +71,7 @@ function displayResult(winner, playerChoice, computerChoice) {
         resultText.textContent = '🎉 You win! Great job! 🎉';
         resultText.style.color = '#28a745';
     } else if (winner === 'computer') {
-        resultText.textContent = '💻 Elaa wins! Try again! 💻';
+        resultText.textContent = ' Elaa wins! Try again!  hhhhhhhh ';
         resultText.style.color = '#dc3545';
     } else {
         resultText.textContent = '🤝 It\'s a draw! Try again! 🤝';
@@ -112,3 +112,4 @@ function resetGame() {
     choiceDisplay.textContent = '';
 
 }
+
