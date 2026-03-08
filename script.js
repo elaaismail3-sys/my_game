@@ -71,7 +71,7 @@ function displayResult(winner, playerChoice, computerChoice) {
         resultText.textContent = '🎉 You win! Great job! 🎉';
         resultText.style.color = '#28a745';
     } else if (winner === 'computer') {
-        resultText.textContent = '💻 Computer wins! Try again! 💻';
+        resultText.textContent = '💻 Elaa wins! Try again! 💻';
         resultText.style.color = '#dc3545';
     } else {
         resultText.textContent = '🤝 It\'s a draw! Try again! 🤝';
@@ -95,7 +95,7 @@ function playGame(playerChoice) {
         }, 100);
     } else if (computerScore === 5) {
         setTimeout(() => {
-            alert('😢 Computer won the game! Try again! 😢');
+            alert('😢 Elaa won the game! Try again! 😢');
             resetGame();
         }, 100);
     }
@@ -110,4 +110,5 @@ function resetGame() {
     resultText.textContent = 'Choose your move to start!';
     resultText.style.color = '#333';
     choiceDisplay.textContent = '';
+
 }
